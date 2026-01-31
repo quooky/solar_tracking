@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "solar-tracking"
+version = "0.1.0"
+description = "Solar tracking and sunspot analysis"
+dependencies = [
+  "sunpy",
+  "opencv-python",
+  "numpy",
+  "matplotlib",
+  "astropy"
+]
+
+[project.scripts]
+solar-tracking = "solar_tracking.cli:main"
+
+[tool.setuptools]
+packages = ["solar_tracking"]
