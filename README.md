@@ -17,7 +17,9 @@ This project processes HMI (Helioseismic and Magnetic Imager) continuum images f
 
 ## Demo
 
-![Sunspot Tracking Demo](docs/images/tracking_demo.gif)
+<div align="center">
+  <img src="docs/images/tracking_demo.gif" alt="Sunspot Tracking Demo" width="400">
+</div>
 
 *Interactive sunspot tracking with real-time bounding box overlay*
 
