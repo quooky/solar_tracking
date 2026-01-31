@@ -15,13 +15,11 @@ This project processes HMI (Helioseismic and Magnetic Imager) continuum images f
 - **Calculate differential rotation** rates and fit to the standard solar rotation model
 - **Visualize results** with interactive displays and PDF output
 
-<!--
 ## Demo
 
 ![Sunspot Tracking Demo](docs/images/tracking_demo.gif)
 
-*Example: Interactive sunspot tracking with real-time coordinate overlay*
--->
+*Interactive sunspot tracking with real-time bounding box overlay*
 
 ## Scientific Background
 
@@ -150,11 +148,7 @@ The tool outputs:
 - **CSV files** with tracked positions (pixel and heliographic coordinates)
 - **PDF plots** showing the differential rotation curve with fitted parameters
 
-<!--
-![Differential Rotation Results](docs/images/rotation_plot.png)
-
-*Example: Measured rotation rates vs. latitude with fitted curve*
--->
+See [example rotation plots (PDF)](docs/images/rotation_plots.pdf) for sample output.
 
 ## Dependencies
 
@@ -173,7 +167,9 @@ pytest tests/
 
 ## Thesis
 
-This project was developed as part of a Bachelor's thesis. The full thesis document is available in the `docs/` folder.
+This project was developed as part of a Bachelor's thesis on solar differential rotation analysis.
+
+📄 **[Read the full thesis (PDF)](docs/thesis.pdf)**
 
 ## License
 

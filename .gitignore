@@ -83,9 +83,11 @@ venv.bak/
 data/
 *.fits
 
-# Output files
-*.pdf
+# Output files (but keep docs PDFs)
 data_points.csv
+
+# Large original GIF (keep compressed version)
+docs/images/tracking_demo_original.gif
 
 # Temporary files
 *.tmp
